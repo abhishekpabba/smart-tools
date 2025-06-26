@@ -5,6 +5,7 @@ import ReadTimeEstimator from '../tools/ReadTimeEstimator';
 import RemoveDuplicateLines from '../tools/RemoveDuplicateLines';
 import CaseConverter from '../tools/CaseConverter';
 import TextSorter from '../tools/TextSorter';
+import PxToRem from '../tools/PxToRem';
 
 export const ToolRoutes = [
   { path: '/tools/word-counter', component: WordCounter, category: 'Text Tools' },
@@ -13,4 +14,5 @@ export const ToolRoutes = [
   { path: '/tools/remove-duplicate-lines', component: RemoveDuplicateLines, category: 'Text Tools' },
   { path: '/tools/case-converter', component: CaseConverter, category: 'Text Tools' },
   { path: '/tools/text-sorter', component: TextSorter, category: 'Text Tools' },
+  { path: '/tools/text-sorter', component: PxToRem, category: 'CSS Tools' },
 ];
