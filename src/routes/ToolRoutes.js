@@ -14,5 +14,5 @@ export const ToolRoutes = [
   { path: '/tools/remove-duplicate-lines', component: RemoveDuplicateLines, category: 'Text Tools' },
   { path: '/tools/case-converter', component: CaseConverter, category: 'Text Tools' },
   { path: '/tools/text-sorter', component: TextSorter, category: 'Text Tools' },
-  { path: '/tools/text-sorter', component: PxToRem, category: 'CSS Tools' },
+  { path: '/tools/px-to-rem', component: PxToRem, category: 'CSS Tools' },
 ];
