@@ -6,6 +6,7 @@ import RemoveDuplicateLines from '../tools/RemoveDuplicateLines';
 import CaseConverter from '../tools/CaseConverter';
 import TextSorter from '../tools/TextSorter';
 import PxToRem from '../tools/PxToRem';
+import SquareFootageCalculator from '../tools/SquareFootageCalculator';
 
 export const ToolRoutes = [
   { path: '/tools/word-counter', component: WordCounter, category: 'Text Tools' },
@@ -15,4 +16,5 @@ export const ToolRoutes = [
   { path: '/tools/case-converter', component: CaseConverter, category: 'Text Tools' },
   { path: '/tools/text-sorter', component: TextSorter, category: 'Text Tools' },
   { path: '/tools/px-to-rem', component: PxToRem, category: 'CSS Tools' },
+  { path: '/tools/square-footage', component: SquareFootageCalculator, category: 'Construction' },
 ];
